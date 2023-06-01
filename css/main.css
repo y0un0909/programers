@@ -813,12 +813,24 @@ footer.foot{
   margin-top:10px;
   font: inherit;
   font-size: 12px;
+  line-height: 1.1;
+  width: 80%;
+  margin-bottom: 25px;
 }
 
 .addr .adn .f12{
   margin-bottom: 70px;
   position: relative;
 }
+.addr .adn .f12 a{
+    margin-right: 20px;
+}
+.addr .adn .f12 a:nth-child(1){
+  font-weight: bold;
+}
+.addr .adn .f12 a:hover{
+    color: #007cff;
+  }
 .addr .adn .f12 .fyb{
   display: inline;
   right: 0;
