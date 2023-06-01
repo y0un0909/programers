@@ -1,0 +1,835 @@
+body{
+  font-family: "Pretendard Std Variable", "Pretendard Std", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  box-sizing: border-box;
+}
+header{
+  border-bottom: 1px solid #ccc;
+  
+}
+#logo{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 63px;
+  max-width: 1200px;
+}
+#logo #headmenu{
+  
+  width: 100%;
+  /*! max-width: 1200px; */
+}
+main section.wrap{
+  margin-top: 50px;
+}
+main section div.wrap.padding30 #right p{
+  
+}
+main section div.wrap.padding30 #right p br{
+  
+  line-height: 1.6;
+}
+#logo #headmenu figure{
+  position: absolute;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo #headmenu figure img{
+  
+  width: 100%;
+  margin-top: -8px;
+}
+#logo #headmenu figure figcaption {
+  
+}
+#logo #headmenu h1.bold.h2{
+  font-size: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 35px;
+  padding-bottom: 10px;
+  padding-right: 70px;
+  padding-top: 10px;
+}
+#logo #headmenu h1.bold.h2 a{
+  display: block;
+  font-weight: bold;
+}
+#logo #headmenu h1.bold.h2 a span{
+  
+}
+#logo #headmenu ul.gnb{
+  display: flex;
+  width: 212px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+}
+#logo #headmenu ul.gnb li {
+  
+}
+#logo #headmenu ul.gnb li a {
+  
+}
+#logo #headmenu ul.h4.flex{
+  
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  padding-top: 6px;
+  padding-left: 30px;
+  font-size: 15px;
+}
+#logo #headmenu ul.h4.flex li{
+  
+}
+#logo #headmenu ul.h4.flex li a{
+  
+}
+#logo #headmenu .etcmenu{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+  transform: translateX(68px);
+  padding-top: 6px;
+}
+#logo #headmenu .etcmenu li{
+
+}
+#logo #headmenu .etcmenu li:nth-child(1)::after{
+  content: "";
+  border: 1px solid #ccc;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: 24%;
+  top: 27px;
+  background-color: #c4c4c4;
+}
+#logo #headmenu .etcmenu li a{
+  font-size: 14px;
+}
+#logo #headmenu .etcmenu li a span{
+  
+  color: #0084ff;
+}
+main{
+
+}
+main section{
+
+  margin-top: 50px;
+  font-size: 30px;
+  position: relative;
+}
+main section div.wrap.padding30{
+
+}
+main section div.wrap.padding30 h2.h1.bold {
+  padding-bottom: 40px;
+}
+main section #right{
+  justify-content: space-between;
+  margin-top: 50px;
+}
+main section div.wrap.padding30 #right #i{
+  
+}
+main section div.wrap.padding30 #right #i p{
+  
+}
+main section div.wrap.padding30 #right #i p a{
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 50px;
+}
+main section div.wrap.padding30 #right #i p:nth-child(1) a{
+  border-bottom: 3px solid #0084ff;
+  color: #0084ff;
+}
+main section div.wrap.padding30 #right{
+  line-height: 1.3;
+  margin-bottom: 50px;
+}
+#right .bigboxx{
+  
+}
+#right .bigboxx .i{
+  font-size: 0;
+}
+#right .bigboxx .i .ii{
+  width: 160px;
+  height: 45px;
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  background-color: transparent;
+  border-bottom: 3px solid #ccc;
+  border-bottom-color: rgb(204, 204, 204);
+  cursor: pointer;
+}
+main section #box {
+  
+}
+
+main section #box #hehe {
+  
+  padding: 50px 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+main section #box select{
+  
+  border: 1px solid #ccc;
+  background-color: #fbfbfd;
+  height: 50px;
+  width: 212px;
+  text-align: center;
+  color: #0084ff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: .25rem;
+}
+main section #box #test {
+  
+}
+main section #box #test option {
+  
+}
+
+#box2 {
+  
+  gap: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+main section .box2 #di {
+  
+}
+main section .box2 #di option {
+  
+}
+main section #box .text{
+  display: flex;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  height: 50px;
+  border-radius: .25rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.slicks{
+  margin-top: 50px;
+}
+section .ad{
+  background-color: #707df3;
+  position: relative;
+  height: 240px;
+  display: inline-block;
+  width: 1100px;
+  padding: 10px 40px;
+  border-radius: 15px;
+}
+section .slicks .b{
+  background-color: #1d2460;
+  position: relative;
+  height: 240px;
+  display: inline-block;
+  width: 1100px;
+  padding: 30px 40px;
+  border-radius: 1rem;
+}
+section .slicks .c{
+  background-color: #192585;
+}
+section .slicks .d{
+  background-color: #000000;
+}
+section div.a img{
+  
+  width: 500px;
+  position: absolute;
+  right: 0;
+  top: 9%;
+}
+section div.d img{
+  
+  width: 700px;
+  top: 0;
+}
+section div.a img{
+  width: 700px;
+    
+  top: -10%;
+}
+section div.e img{
+  width: 600px;
+  top: 0;
+}
+section div.f img{
+  width: 700px;
+  top: 0;
+  left: 30%
+}
+section .slicks .e{
+  background-color: #031e4b;
+}
+section .slicks .f{
+  background-color: #051060;
+}
+section .ad img{
+  
+  width: 500px;
+  position: absolute;
+  right: 0;
+  top: 9%;
+}
+section .ad .adtext{
+  
+  width: 320px;
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+section .ad .adbutton{
+  border: none;
+  background: #2e3357;
+  color: white;
+  height: 25px;
+  width: auto;
+  border-radius: .25rem;
+  padding: 5px;
+}
+section .ad .rd{
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  padding: 4px 8px;
+  z-index: 1;
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.25);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+section .ad .adp{
+  
+  font-size: 16px;
+  color: white;
+}
+section.middle{
+  margin-top: 5%;
+}
+.middle div.alb {
+  
+  justify-content: space-between;
+}
+.middle div.alb .ex {
+  
+}
+.middle div.alb .ex .f16 {
+  
+  color: #5f5f5f;
+  font-weight: 700;
+  line-height: 2;
+}
+.middle div.alb .ex .f25 {
+  
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 2.25rem;
+  word-break: keep-all;
+  margin-bottom: 20px;
+}
+.more {
+  
+  font-size: 12px;
+  background: none;
+  border: none;
+}
+.more::after{
+  content: "";
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 3px;
+  background-image: url(../img/>.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.middle div.gr {
+  
+  margin-bottom: 50px;
+  width: 770px;
+}
+.middle div.gr .tg{
+  justify-content: end;
+  margin-bottom: 30px;
+  margin-left: auto;
+}
+.middle div.gr .tg h2.tt{
+  
+  color: rgb(120, 120, 120);
+  display: block;
+}
+.middle div.gr .tg h2.tt a{
+  
+  display: block;
+}
+.middle div.gr .tg h2.tt::after{
+  content: "";
+  border-bottom: 1px solid #ccc;
+}
+.middle div.gr .tg .tt{
+  width: 200px;
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  background-color: transparent;
+  border-bottom: 3px solid #ccc;
+  border-bottom-color: rgb(204, 204, 204);
+  cursor: pointer;
+  line-height: 2;
+}
+.middle div.gr .box .h2 {
+  
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+.middle .gr .xbox{
+  
+  height: 320px;
+  gap: 30px;
+}
+.middle div.gr .xbox .box {
+  flex-direction: row;
+  border-radius: 15px;
+  padding: 30px 40px 90px 40px;
+  height: 320px;
+  display: flex;
+  position: relative;
+}
+.wbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 75%;
+}
+.wwbox{
+  
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.middle div.gr .box {
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 30px 40px;
+  height: 320px;
+  width: 370px;
+  position: relative;
+}
+.middle div.gr .box1{
+  background: linear-gradient(224.02deg, rgb(23, 116, 198) 4.61%, rgb(0, 224, 190) 93.66%);
+}
+.middle div.gr .box2{
+  background: linear-gradient(224.02deg, rgb(0, 121, 168) 4.61%, rgb(0, 130, 240) 93.66%);
+}
+.middle div.gr .box3{
+  background: linear-gradient(224.02deg, rgb(0, 67, 168) 4.61%, rgb(0, 130, 240) 93.66%);
+  flex-direction: row;
+  border-radius: 15px;
+  padding: 30px 40px 90px 40px;
+  height: 320px;
+  position: relative;
+}
+.middle div.gr .box4{
+  background: linear-gradient(231.73deg, rgb(146, 32, 114) 0%, rgb(66, 134, 219) 100%);
+  flex-direction: row;
+  border-radius: 15px;
+  padding: 30px 40px 90px 40px;
+  height: 320px;
+  position: relative;
+}
+.middle div.gr .box h2 {
+  
+}
+.middle div.gr .box h2 span {
+  
+}
+.middle div.gr .box .aroundimg{
+  
+  width: 100px;
+}
+.middle div.gr .box .f28 {
+  color: white;
+}
+.middle div.gr .box .f28 spaan{
+  font-size: 16px;
+}
+.middle div.gr .box .go {
+  
+  border: 1px solid #d7e2eb;
+  background: #fbfbfd;
+  width: 300px;
+  height: 50px;
+  border-radius: 11px;
+  position: absolute;
+  bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* slick 화살표 도트 */
+.slicks .slick-next{
+  
+  left: 245px;
+  top: 210px;
+  z-index: 2;
+}
+.slicks .slick-prev{
+  
+  left: 40px;
+  top: 210px;
+  z-index: 2;
+}
+.slicks .slick-dots{
+  
+  z-index: 1;
+  top: 185px;
+  left: -455px;
+}
+.slicks .slick-dots li.slick-active button::before{
+  color: white;
+}
+.slicks .slick-dots li button{
+  
+}
+.slicks .slick-dots li button::before{
+  
+  font-size: 15px;
+  color: white;
+}
+#grap{
+  margin-top: 50px;
+  position: relative;
+}
+#grap .ex{
+  
+}
+#grap .fb{
+
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 50px;
+}
+#grap .fb p{
+
+  color: #5f5f5f;
+  font-weight: 700;
+  line-height: 2;
+}
+#grap .fb h3{
+
+  height: 100%;
+  width:  50%;
+  position: relative;
+}
+#grap button{
+
+}
+#grap img{
+  
+}
+#grap .more{
+  
+  position: absolute;
+  top: 150px;
+}
+.cr{
+  margin-top: 10%;
+}
+.cr .sag{
+
+}
+.cr .sag .ll{
+  
+  width: 1200px;
+  justify-content: space-between;
+  position: relative;
+}
+.cr .sag .ll .nd{
+
+}
+#uggr{
+  
+  width: 760px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.cr .sag .ggr{
+
+  position: relative;
+  height: 133px;
+}
+.cr .sag .ggr .wcr{
+
+  padding: 30px;
+}
+.cr .sag .ggr .wcr .pp{
+
+  font-size: 18px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.ggr .wcr .day{
+  
+}
+.ggr .wcr .day p{
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 311px;
+  color: #1080ff;
+  font-weight: bold;
+/*   line-height: 1.7; */
+}
+.cr .sag .ggr .day p .pi{
+  font-weight: initial;
+  color: #555;
+}
+
+#im{
+  
+  overflow: hidden;
+  width: 26%;
+  border-radius: 0 10px 0 0;
+  position: absolute;
+  top: -1px;
+  right: 0px;
+  height: 67%;
+}
+
+#im img{
+
+  position: absolute;
+  height: 100%;
+  right: -45%;
+  width: 624px;
+}
+.cr .sag .bg{
+
+  padding: 0 33px;
+  padding-top: 0px;
+  font-size: 0;
+  display: flex;
+  gap: 5px;
+  border-top: 1px solid #ccc;
+  margin-top: -2px;
+  padding-top: 22px;
+}
+.cr .sag .bg button{
+  border: none;
+  padding: 5px 5px;
+  border-radius: 4px;
+}
+#uggr .more{
+  
+  position: absolute;
+  left: 0.5px;
+  top: 100px;
+}
+.vol{
+  margin-top: 15%;
+}
+.vol h3{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.vol .wpho{
+
+}
+.vol .wpho .pho{
+  width: 275px;
+  height: 275px;
+  gap: 15px;
+}
+.vol .wpho .pho .phopho{
+  width: 275px;
+  height: 220px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-position: center;
+}
+.vol .wpho .pho:nth-child(1) .phopho{
+  background-image: url(../img/imo.png);
+  background-color: #fff3e0;
+}
+.vol .wpho .pho:nth-child(2) .phopho{
+  background-image: url(../img/imo2.png);
+  background-color: #e0f2f1;
+}
+.vol .wpho .pho:nth-child(3) .phopho{
+  background-image: url(../img/imo3.png);
+  background-color: #fbe9e7;
+}
+.vol .wpho .pho:nth-child(4) .phopho{
+  background-image: url(../img/imo4.png);
+  background-color: #e8f5e9;
+}
+.vol .wpho .pho:nth-child(5) .phopho{
+  background-image: url(../img/imo5.png);
+  background-color: #e9ecf3;
+}
+.vol .wpho .pho .exx{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.vol .wpho .slick-next{
+  background-color: gray;
+  right: 14px;
+}
+.vol .wpho  .slick-prev{
+  background-color: gray;
+  left: -12px;
+  z-index: 2;
+}
+.lastpho{
+  background-image: url(../img/lpho.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #202f5a;
+  height: 247px;
+  width: 100%;
+  background-position-x: 500px;
+}
+.lastpho .lapho{
+  padding: 50px 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.lastpho .lapho .fl{
+  color: white;
+}
+.lastpho .lapho .rl{
+  width: 200px;
+  height: 45px;
+}
+.lastpho .lapho .rl span{
+  color: #0084ff;
+  font-weight: bold;
+}
+footer.foot{
+  margin-top: 50px;
+}
+.fofo{
+
+}
+.fofo .wfofo{
+  justify-content: space-between;
+}
+.fofo .wfofo .tex{
+  width: 500px;
+}
+.tex h4{
+  margin-right: 60px;
+  width: 167px;
+}
+.fofo .fs{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 0;
+  scale: 0.9;
+}
+.fofo .dd{
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.fofo .dd .f14{
+  flex-direction: column;
+  display: flex;
+  width: 167px;
+  
+}
+.fofo .dd .gray{
+  line-height: 1.8;
+}
+.fofo .dd .gray address{
+  font: inherit;
+}
+.fofo .f14{
+  
+}
+.addr{
+
+}
+.addr .adn{
+
+}
+.addr .adn a.gray{
+  margin-bottom: 10px;
+}
+.addr address{
+  margin-top:10px;
+  font: inherit;
+  font-size: 12px;
+}
+
+.addr .adn .f12{
+  margin-bottom: 70px;
+  position: relative;
+}
+.addr .adn .f12 .fyb{
+  display: inline;
+  right: 0;
+  position: absolute;
+  font-size: 0;
+}
+.addr .adn .f12 .fyb a{
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  background-color: #ccc;
+  margin-right: 5px;
+  border-radius: 50%;
+}

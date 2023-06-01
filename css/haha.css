@@ -1,0 +1,57 @@
+.babo{
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid;
+  background-image: url(../img/fuck.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  text-align: center;
+}
+.babo .back{
+  
+  background-color: #ffffffb8;
+  width: 531px;
+}
+.babo .back .kk{
+
+  color: black;
+  display: block;
+  font-size: 51px;
+  font-weight: bold;
+}
+.babo .back .kk::before{
+  content:"뽀큐";
+  position: absolute;
+  left: 359px;
+  color: fuchsia;
+  top: 435px;
+}
+.babo .back .kk::after{
+  content:"뽀큐";
+  color: fuchsia;
+  right: 501px;
+  position: absolute;
+  top: 483px;
+}
+.babo .back p{
+    
+  color: red;
+  font-size: 50px;
+ 
+}
+.babo img{
+  width: 12%;
+  background-image: url(../img/foruano.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  position: absolute;
+  right: 628px;
+  top: 17px;
+}
