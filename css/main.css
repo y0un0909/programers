@@ -794,7 +794,13 @@ footer.foot{
 .fofo .dd .gray{
   line-height: 1.8;
 }
-.fofo .dd .gray address{
+.fofo .dd .gray:hover{
+    color: #007cff;
+  }
+.fofo .dd .noho:hover{
+  color: #888;
+}
+.fofo .dd .noho address{
   font: inherit;
 }
 .fofo .f14{
@@ -809,6 +815,9 @@ footer.foot{
 .addr .adn a.gray{
   margin-bottom: 10px;
 }
+.addr .adn a.gray:hover{
+    color: #007cff;
+  }
 .addr address{
   margin-top:10px;
   font: inherit;
