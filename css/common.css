@@ -86,3 +86,36 @@ img{
     font-weight: bold;
     border-bottom-color: #2e7af6 !important;
 }
+.gbt{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    height: 50px;
+    border-radius: .25rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 100%
+}
+.ggt{
+    text-align: center;
+    line-height: 2;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+    font-size: 16px;
+    /*! height: 177px; */
+    font-weight: bold;
+    text-align: center;
+    padding: 45px 0 60px;
+}
+.selb{
+  border: 1px solid #ccc;
+  background-color: #fbfbfd;
+  height: 50px;
+  width: 212px;
+  text-align: center;
+  color: #0084ff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius:5px;
+}

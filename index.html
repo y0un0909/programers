@@ -55,28 +55,28 @@
                     }
                 ]
             });
-            $(".middle div.gr .box3").hide();
-            $(".middle div.gr .box4").hide();
-            $(".middle .gr .tg .tt").click(function () {
+            $(".g2").hide();
+            $(".g3").hide();
+            $("#right .bigboxx .i .ii").click(function () {
                 let k;
                 k = $(this).index() + 1;
                 console.log("click k:" + k);
-                $(".middle .gr .tg .tt:nth-child(" + k + ")").addClass("blue bold");
-                $(".middle .gr .tg .tt").not(".middle div.gr .tg .tt:nth-child(" + k + ")").removeClass("blue bold");
+                $("#right .bigboxx .i .ii:nth-child(" + k + ")").addClass("blue bold");
+                $("#right .bigboxx .i .ii").not("#right .bigboxx .i .ii:nth-child(" + k + ")").removeClass("blue bold");
                 if (k == 1) {
-                    $(".middle div.gr .xbox").show();
-                    $(".middle div.gr .box3").hide();
-                    $(".middle div.gr .box4").hide();
+                    $(".g1").show();
+                    $(".g2").hide();
+                    $(".g3").hide();
                 }
                 else if (k == 2) {
-                    $(".middle div.gr .xbox").hide();
-                    $(".middle div.gr .box3").show();
-                    $(".middle div.gr .box4").hide();
+                    $(".g1").hide();
+                    $(".g2").show();
+                    $(".g3").hide();
                 }
                 else {
-                    $(".middle div.gr .xbox").hide();
-                    $(".middle div.gr .box3").hide();
-                    $(".middle div.gr .box4").show();
+                    $(".g1").hide();
+                    $(".g2").hide();
+                    $(".g3").show();
                 }
             });
 
@@ -149,26 +149,99 @@
                             <button class="ii h3">스쿨</button>
                             <button class="ii h3">커리어</button>
                         </div>
-                        <div id="box">
-                            <p id="hehe">어떤 코딩테스트 유형을 찾으세요?</p>
-                            <div id="box2">
-                                <select name="" id="test">
-                                    <option value="" selected="selected">프로그래밍 언어 선택</option>
-                                    <option value="">C</option>
-                                    <option value="">C++</option>
-                                    <option value="">C#</option>
-                                    <option value="">Go</option>
-                                </select>
-                                <select name="" id="di">
-                                    <option value="" selected="selected">난이도 선택</option>
-                                    <option value="">1레벨</option>
-                                    <option value="">2레벨</option>
-                                    <option value="">3레벨</option>
-                                    <option value="">4레벨</option>
-                                </select>
+                        <div class="gbox">
+                            <div id="box"class="g1">
+                                <p id="hehe" class="h3 ggt">어떤 코딩테스트 유형을 찾으세요?</p>
+                                <div id="box2">
+                                    <select name="" id="test" class="selb">
+                                        <option value="" selected="selected">프로그래밍 언어 선택</option>
+                                        <option value="">C</option>
+                                        <option value="">C++</option>
+                                        <option value="">C#</option>
+                                        <option value="">Go</option>
+                                        <option value="">Java</option>
+                                        <option value="">JavaScript</option>
+                                        <option value="">Kotlin</option>
+                                        <option value="">Python2</option>
+                                        <option value="">Python3</option>
+                                        <option value="">Ruby</option>
+                                        <option value="">Scala</option>
+                                        <option value="">Swift</option>
+                                        <option value="">MySQL</option>
+                                        <option value="">Oracle</option>
+                                    </select>
+                                    <select name="" id="di"  class="selb">
+                                        <option value="" selected="selected">난이도 선택</option>
+                                        <option value="">1레벨</option>
+                                        <option value="">2레벨</option>
+                                        <option value="">3레벨</option>
+                                        <option value="">4레벨</option>
+                                        <option value="">5레벨</option>
+                                    </select>
+                                </div>
+                                <a class="text block">코딩테스트 보러 가기</a>
                             </div>
-                            <a class="text block">코딩테스트 보러 가기</a>
                         </div>
+                        <div class="g2">
+                            <p class="h3 ggt pg">스스로 학습하는 영상/실습 강의부터<br>
+                                동료와 함께 학습하는 스터디, 커뮤러닝,<br>
+                                무료 국비지원 교육까지!<br>
+                                지금 바로 확인해 보세요!
+                            </p> 
+                            <button class="gbt h3">프로그래밍 강의 보러 가기</button>
+                    </div>
+                    <div class="g3">
+                        <p class="h3 ggt gtt">어떤 포지션 채용 공고를 찾으세요?</p>
+                    </span>    
+                    <div class="type">
+                        <select name="" id="type" class="blue bold selb">
+                            <option value="" class="hide" selected="selected">직무 선택</option>
+                            <option value="" class="h3" >서버/백엔드</option>
+                            <option value="" class="h3">프론트엔드</option>
+                            <option value="" class="h3">웹 풀스택</option>
+                            <option value="" class="h3">안드로이드 앱</option>
+                            <option value="" class="h3">아이폰 앱</option>
+                            <option value="" class="h3">머신러닝</option>
+                            <option value="" class="h3">인공지능(AI)</option>
+                            <option value="" class="h3">데이터 엔지니어</option>
+                            <option value="" class="h3">DBA</option>
+                            <option value="" class="h3">모바일 게임</option>
+                            <option value="" class="h3">게임 클라이언트</option>
+                            <option value="" class="h3">게임 서버</option>
+                            <option value="" class="h3">시스템/네트워크</option>
+                            <option value="" class="h3">데브옵스</option>
+                            <option value="" class="h3">시스템 소프트웨어</option>
+                            <option value="" class="h3">인터넷 보안</option>
+                            <option value="" class="h3">임베디드 소프트웨어</option>
+                            <option value="" class="h3">로보틱스 미들웨어</option>
+                            <option value="" class="h3">QA</option>
+                            <option value="" class="h3">사물인터넷(IOT)</option>
+                            <option value="" class="h3">응용 프로그램</option>
+                            <option value="" class="h3">블록체인</option>
+                            <option value="" class="h3">개발PM</option>
+                            <option value="" class="h3">웹 퍼블리싱</option>
+                            <option value="" class="h3">크로스 플랫폼</option>
+                            <option value="" class="h3">VR/AR/3D</option>
+                            <option value="" class="h3">ERP</option>
+                            <option value="" class="h3">그래픽스</option>
+                        </select>
+                        <select name="" id="level" class="blue bold selb">
+                            <option value="" class="hide" selected="selected">경력 선택</option>
+                            <option value="" class="h3">전체</option>
+                            <option value="" class="h3">신입</option>
+                            <option value="" class="h3">1년차</option>
+                            <option value="" class="h3">2년차</option>
+                            <option value="" class="h3">3년차</option>
+                            <option value="" class="h3">4년차</option>
+                            <option value="" class="h3">5년차</option>
+                            <option value="" class="h3">6년차</option>
+                            <option value="" class="h3">7년차</option>
+                            <option value="" class="h3">8년차</option>
+                            <option value="" class="h3">9년차</option>
+                        </select>
+                    </div>
+                        <button class="gbt h3">채용 공고 보러 가기</button>
+                </div>              
                     </div>
                 </div>
 
@@ -385,7 +458,7 @@
                     <a href="" class="gray">FAQ/문의</a>
                     <a href="" class="gray">교육 결제, 환불 관련 문의</a>
                 </div>
-                <div id="f5" class="gray">
+                <div id="f5" class="gray noho">
                     <address>대표번호: 1533-1886 (무선전용) / 070-4768-5416 (유선전용)</address>
                     <p>운영시간: 오전 9시 ~ 오후 6시(주말 및 공휴일 휴무)</p>
                     <p>점심시간: 오후 12시 ~ 오후 1시</p>
