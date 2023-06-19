@@ -591,16 +591,15 @@ section.middle{
   line-height: 2;
 }
 #grap .fb h3{
-
   height: 100%;
-  width:  50%;
+  width:  30%;
   position: relative;
 }
 #grap button{
 
 }
 #grap img{
-  
+  width: 70%
 }
 #grap .more{
   
